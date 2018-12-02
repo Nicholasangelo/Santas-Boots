@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+.img {
+    width: 44em;
+    height: 44em;
+    background-size: cover;
+}
+#clickGlobe {
+    background-image: url('../images/globeCover.png');
+    width: 44em;
+    height: 44em;
+    background-size: cover;
+    position: fixed;
+    animation: pulse 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes pulse {
+    0% {opacity:.5}
+    100% {opacity: 1;}
+}
+#clickGlobe:hover {
+    cursor: pointer;
+}
+#cover {
+    background-image: url('../images/wmts0Cover.png');
+    width: 44em;
+    height: 44em;
+    background-size: cover;
+    }
+    #img1 {
+        background-image: url("../images/wmts1.png");
+        position: fixed;
+        animation: slideOut 2s ease-in-out;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes slideOut {
+        0% {left: 10%; opacity: 1}
+        100% {left: -52%; opacity: 0;}
+    }
+    #img2 {
+        background-image: url("../images/wmts2.png");
+        position: fixed;
+        right: -70%;
+        animation: slideIn 10s ease-in-out 3s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes slideIn {
+        0% {right: -56%; opacity: 0}
+        50% {right: 15%; opacity: 1;}
+        100% {right: 15%; opacity: 1;}
+        /* 100% {right: 20%; opacity: 1} */
+    }
+    #img3 {
+        background-image: url("../images/wmts3\(alt\).png");
+    }
+    #img4 {
+        background-image: url("../images/wmts4.png");
+    }
+    #img5 {
+        background-image: url("../images/wmts5.png");
+    }
+    #img6 {
+        background-image: url("../images/wmts6.png");
+    }
+    #img78 {
+        background-image: url("../images/wmts7&8.png");
+        overflow: scroll;
+        background-size: cover;
+        width: 1600px;
+        height: 800px;
+    }
+    /* #img8 {
+        background-image: url("../images/wmts8.png");
+    }
+    #img9 {
+        background-image: url("../images/wmts9.png");
+    }
+    #img10 {
+        background-image: url("../images/wmts10.png");
+    } */
