@@ -1,8 +1,12 @@
+$(document).ready(function() {
+AOS.init();
+
 $("#cover").hide();
 $("#img1").hide();
 $("#img2").hide();
 $(".oneEight").css("display", "none");
 
+});
 function showAllPages() {
     setTimeout(function() { 
         $("#cover").css("display", "none");

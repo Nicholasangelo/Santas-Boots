@@ -36,7 +36,7 @@ body{
         animation-fill-mode: forwards;
     }
     @keyframes slideOut {
-        0% {left: 10%; opacity: 1}
+        0% {left: 0; opacity: 1}
         100% {left: -52%; opacity: 0;}
     }
     #img2 {
@@ -66,10 +66,12 @@ body{
     }
     #img78 {
         background-image: url("../images/wmts7&8.png");
-        overflow: scroll;
+        position: absolute;
+    right: -8em;
         background-size: cover;
         width: 1600px;
         height: 800px;
+        overflow-x: scroll
     }
     /* #img8 {
         background-image: url("../images/wmts8.png");

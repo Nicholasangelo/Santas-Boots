@@ -8,8 +8,11 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous" />
+        <!-- AOS style -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css" />
+
     <title>Document</title>
 </head>
 
@@ -26,9 +29,9 @@
 
                     <div id="allPages8">
                         <div class="img oneEight" id="img3"></div>
-                        <div class="img oneEight" id="img4"></div>
-                        <div class="img oneEight" id="img5"></div>
-                        <div class="img oneEight" id="img6"></div>
+                        <div class="img oneEight" data-aos="fade-up" id="img4"></div>
+                        <div class="img oneEight" data-aos="fade-up" id="img5"></div>
+                        <div class="img oneEight" data-aos="fade-up" id="img6"></div>
 
                     </div>
                 </div>
@@ -37,9 +40,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <div class="oneEight" id="img78"></div>
-
-
+            <div class="oneEight" data-aos="fade-left" data-aos-duration="2000"id="img78"></div>
         </div>
     </div>
 
@@ -54,6 +55,8 @@
 
 
 
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
